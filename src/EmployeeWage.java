@@ -12,5 +12,11 @@ public class EmployeeWage {
         byte fullDayHour=8;
         int dailyWage=wagePerHour*fullDayHour;
         System.out.println("Daily Employee Wage : "+dailyWage);
+
+        //0-half_time, 1-full_time
+        int employeeType=(int)(Math.random()*10)%2;
+        byte partTimeHour=4;
+        int dailyWagePartTime=wagePerHour*partTimeHour;
+        System.out.println("Daily wage of part time employee : "+dailyWagePartTime);
     }
 }
