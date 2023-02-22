@@ -19,5 +19,10 @@ public class EmployeeWage {
             case 1 -> dailyWage = wagePerHour * fullDayHour;
         }
         System.out.println("Daily wage of employee is : " + dailyWage);
+
+        //to calculate wages for a month
+        byte noOfWorkingDays = 20;
+        int wagesForAMonth = dailyWage * noOfWorkingDays;
+        System.out.println("Wages for a month : " + wagesForAMonth);
     }
 }
