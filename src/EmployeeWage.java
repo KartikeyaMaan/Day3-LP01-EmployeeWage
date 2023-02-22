@@ -24,5 +24,6 @@ public class EmployeeWage {
         byte noOfWorkingDays = 20;
         int wagesForAMonth = dailyWage * noOfWorkingDays;
         System.out.println("Wages for a month : " + wagesForAMonth);
+
     }
 }
