@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="&quot;REFACTORED : using switch case for determining daily wage&quot;">
+    <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="&quot;ADDED : loop for calculating wages till given condition&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeWage.java" afterDir="false" />
     </list>
@@ -30,12 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Official Assignments/Day3/Day3-LP01-EmployeeWage"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +67,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677046649645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;ADDED : wagesForAMonth for calculation&quot;">
+      <created>1677046956771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677046956771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;ADDED : wagesForAMonth for calculation&quot;">
+      <created>1677047066496</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677047066497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;ADDED : loop for calculating wages till given condition&quot;">
+      <created>1677048004204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677048004205</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +106,8 @@
     <MESSAGE value="&quot;ADDED : welcome message&quot;" />
     <MESSAGE value="&quot;ADDED : dailyWage formula&quot;" />
     <MESSAGE value="&quot;REFACTORED : using switch case for determining daily wage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;REFACTORED : using switch case for determining daily wage&quot;" />
+    <MESSAGE value="&quot;ADDED : wagesForAMonth for calculation&quot;" />
+    <MESSAGE value="&quot;ADDED : loop for calculating wages till given condition&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ADDED : loop for calculating wages till given condition&quot;" />
   </component>
 </project>

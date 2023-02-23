@@ -1,44 +1,28 @@
 public class EmployeeWage {
+
+    public static final int IS_PART_TIME = 1;
+    public static final int IS_FULL_TIME = 2;
+    public static final int EMP_RATE_PER_HOUR = 20;
+    public static final int NUM_OF_WORKING_DAYS = 20;
+    public static final int MAX_HRS_IN_A_MONTH = 100;
+
     public static void main(String[] args) {
         System.out.println("Welcome To Employee Wage Computation Program");
-
-        int attendanceCheck = (int) (Math.random() * 10) % 2;
-        if (attendanceCheck == 1)
-            System.out.println("Employee is present");
-        else
-            System.out.println("Employee is absent");
-
-        //0-half_time, 1-full_time
-        int employeeType = (int) (Math.random() * 10) % 2;
-        byte wagePerHour = 20;
-        byte fullDayHour = 8;
-        byte partTimeHour = 4;
-        int dailyWage = 0;
-        switch (employeeType) {
-            case 0 -> dailyWage = wagePerHour * partTimeHour;
-            case 1 -> dailyWage = wagePerHour * fullDayHour;
+        //variables
+        int totalEmpHrs = 0, totalWorkingDays = 0;
+        //Computation
+        while (totalEmpHrs <= MAX_HRS_IN_A_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS) {
+            totalWorkingDays++;
+            int empHrs=0;
+            int empCheck = (int) (Math.random() * 10) % 3;
+            switch (empCheck) {
+                case IS_PART_TIME -> empHrs = 4;
+                case IS_FULL_TIME -> empHrs = 8;
+            }
+            totalEmpHrs += empHrs;
+            System.out.println("Day : " + totalWorkingDays + "  Emp Hr : " + empHrs);
         }
-        System.out.println("Daily wage of employee is : " + dailyWage);
-
-        //to calculate wages for a month
-        byte noOfWorkingDays = 20;
-        int wagesForAMonth = dailyWage * noOfWorkingDays;
-        System.out.println("Wages for a month : " + wagesForAMonth);
-
-        //to calculate wages till given condition
-        int totalHours = 0;
-        int totalDays = 0;
-        while (totalHours <= 100 && totalDays < 20) {
-            attendanceCheck = (int) (Math.random() * 10) % 2;
-            if (attendanceCheck == 0)
-                continue;
-            totalDays += attendanceCheck;
-            if (employeeType == 0)
-                totalHours += 4;
-            else
-                totalHours += 8;
-        }
-        int totalWage = totalHours * wagePerHour;
-        System.out.println("Total wage : " + totalWage);
+        int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HOUR;
+        System.out.println("Total Emp Wage : " + totalEmpWage);
     }
 }
