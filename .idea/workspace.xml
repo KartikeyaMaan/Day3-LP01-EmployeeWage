@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="&quot;ADDED : loop for calculating wages till given condition&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Official Assignments/Day3/Day3-LP01-EmployeeWage"
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/EmployeeWage"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
