@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="&quot;ADDED : loop for calculating wages till given condition&quot;">
+    <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="&quot;ADDED : function to compute emoloyee wage&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -87,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677048004205</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;ADDED : function to compute emoloyee wage&quot;">
+      <created>1677654200023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677654200023</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +122,7 @@
     <MESSAGE value="&quot;REFACTORED : using switch case for determining daily wage&quot;" />
     <MESSAGE value="&quot;ADDED : wagesForAMonth for calculation&quot;" />
     <MESSAGE value="&quot;ADDED : loop for calculating wages till given condition&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ADDED : loop for calculating wages till given condition&quot;" />
+    <MESSAGE value="&quot;ADDED : function to compute emoloyee wage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ADDED : function to compute emoloyee wage&quot;" />
   </component>
 </project>
