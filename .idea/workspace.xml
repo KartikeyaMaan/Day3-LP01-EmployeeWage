@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="ADDED : code to compute wage for multiple companies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyEmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyEmpWage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EmpWageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpWageBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677930851483</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ADDED : code to track daily wage">
+      <created>1677932514819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677932514819</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +148,7 @@
     <MESSAGE value="&quot;ADDED : function to compute emoloyee wage&quot;" />
     <MESSAGE value="ADDED : code to save wage for each company" />
     <MESSAGE value="REFACTORED : code to implement interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED : code to implement interface" />
+    <MESSAGE value="ADDED : code to track daily wage" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code to track daily wage" />
   </component>
 </project>

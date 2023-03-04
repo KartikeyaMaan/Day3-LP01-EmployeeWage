@@ -43,10 +43,20 @@ public class EmpWageBuilder implements IComputeEmpWage{
         return totalEmpHrs * companyEmpWage.empRatePerHour;
     }
 
+    public int getTotalWage(String name){
+        for(CompanyEmpWage c: companyEmpWageList){
+            if(c.company.equals(name)){
+                return c.totalEmpWage;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
         EmpWageBuilder empWageBuilder= new EmpWageBuilder();
         empWageBuilder.addCompanyEmpWage("DMart", 20, 2, 10);
         empWageBuilder.addCompanyEmpWage("Reliance", 10, 4, 20);
         empWageBuilder.computeEmpWage();
+        System.out.println("Total wage of Dmart company : "+empWageBuilder.getTotalWage("DMart"));
     }
 }
