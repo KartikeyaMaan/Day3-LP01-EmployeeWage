@@ -28,8 +28,15 @@ public class EmpWageBuilder implements IComputeEmpWage{
             totalWorkingDays++;
             int empCheck = (int) (Math.random() * 10 % 3);
             switch (empCheck) {
-                case IS_PART_TIME -> empHrs = 4;
-                case IS_FULL_TIME -> empHrs = 8;
+                case IS_PART_TIME -> {
+                    empHrs = 4;
+                    companyEmpWage.dailyWage.add(empHrs*companyEmpWage.empRatePerHour);
+                }
+                case IS_FULL_TIME -> {
+                    empHrs = 8;
+                    companyEmpWage.dailyWage.add(empHrs*companyEmpWage.empRatePerHour);
+                }
+                default -> companyEmpWage.dailyWage.add(0);
             }
             totalEmpHrs += empHrs;
         }
