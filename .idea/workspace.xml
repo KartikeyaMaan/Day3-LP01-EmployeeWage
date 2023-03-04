@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c2c89b3-f6b9-47d5-83e8-436ff76979ba" name="Changes" comment="ADDED : code to compute wage for multiple companies">
+      <change afterPath="$PROJECT_DIR$/src/CompanyEmpWage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpWageBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="UC9-SAVE_WAGE_EACH_COMPANY" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/EmployeeWage"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/EmployeeWage&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677654200023</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ADDED : code to save wage for each company">
+      <created>1677927407409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677927407409</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +132,7 @@
     <MESSAGE value="&quot;ADDED : wagesForAMonth for calculation&quot;" />
     <MESSAGE value="&quot;ADDED : loop for calculating wages till given condition&quot;" />
     <MESSAGE value="&quot;ADDED : function to compute emoloyee wage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ADDED : function to compute emoloyee wage&quot;" />
+    <MESSAGE value="ADDED : code to save wage for each company" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code to save wage for each company" />
   </component>
 </project>
